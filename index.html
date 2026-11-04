@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Гострий кут — барбершоп у Сумах</title>
   <meta name="description" content="Барбершоп «Гострий кут» у Сумах: чоловічі стрижки, фейди, борода та королівське гоління. Запис за телефоном, у Telegram та Instagram.">
-  <meta name="theme-color" content="#121110">
+  <meta name="theme-color" content="#0f0e0c">
   <meta property="og:title" content="Гострий кут — барбершоп у Сумах">
   <meta property="og:description" content="Чоловічі стрижки, борода та гоління. Без поспіху і зайвого шуму.">
   <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121110'/%3E%3Cpath d='M7 25V7h18' fill='none' stroke='%23c4975a' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230f0e0c'/%3E%3Cpath d='M7 25V7h18' fill='none' stroke='%23c9a46a' stroke-width='3'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -52,9 +52,9 @@
         <div class="hero__copy">
           <p class="eyebrow">Барбершоп · Суми · з 2019</p>
           <h1 class="hero__title" id="hero-title">
-            Чітка лінія.<br>
-            <span class="hero__title-muted">Спокійна година</span><br>
-            для себе.
+            <span class="line"><span>Чітка лінія.</span></span>
+            <span class="line"><span class="hero__title-accent">Спокійна година</span></span>
+            <span class="line"><span>для себе.</span></span>
           </h1>
           <p class="hero__lead">
             Чоловічі стрижки, борода і гоління небезпечною бритвою.
@@ -82,13 +82,21 @@
       </div>
     </section>
 
+    <!-- Бігучий рядок (декоративний, прихований від скрінрідерів) -->
+    <div class="ribbon" aria-hidden="true">
+      <div class="ribbon__track">
+        <span>Чоловічі стрижки</span><span>Королівське гоління</span><span>Моделювання бороди</span><span>Скін-фейд</span><span>Гарячий рушник</span><span>Батько + син</span>
+        <span>Чоловічі стрижки</span><span>Королівське гоління</span><span>Моделювання бороди</span><span>Скін-фейд</span><span>Гарячий рушник</span><span>Батько + син</span>
+      </div>
+    </div>
+
     <!-- ПОСЛУГИ -->
     <section class="section" id="services" aria-labelledby="services-title">
       <div class="wrap">
         <header class="section__head">
           <span class="section__num">01</span>
           <h2 class="section__title" id="services-title">Послуги та ціни</h2>
-          <p class="section__note">Ціни фіксовані й не залежать від майстра. Оплата готівкою або карткою.</p>
+          <p class="section__note">Ціни фіксовані й не залежать від майстра. До кожного візиту — кава, чай або келих віскі. Оплата готівкою або карткою.</p>
         </header>
 
         <div class="services">
@@ -347,6 +355,9 @@
   </main>
 
   <footer class="footer">
+    <div class="wrap">
+      <p class="footer__wordmark" aria-hidden="true">Гострий кут</p>
+    </div>
     <div class="wrap footer__inner">
       <a class="logo" href="#top" aria-label="Гострий кут — на початок сторінки">
         <span class="logo__mark" aria-hidden="true"></span>
