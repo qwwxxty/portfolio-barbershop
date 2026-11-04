@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Гострий кут — барбершоп у Сумах</title>
+  <meta name="description" content="Барбершоп «Гострий кут» у Сумах: чоловічі стрижки, фейди, борода та королівське гоління. Запис за телефоном, у Telegram та Instagram.">
+  <meta name="theme-color" content="#121110">
+  <meta property="og:title" content="Гострий кут — барбершоп у Сумах">
+  <meta property="og:description" content="Чоловічі стрижки, борода та гоління. Без поспіху і зайвого шуму.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121110'/%3E%3Cpath d='M7 25V7h18' fill='none' stroke='%23c4975a' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти до змісту</a>
+
+  <header class="header" id="top">
+    <div class="header__inner wrap">
+      <a class="logo" href="#top" aria-label="Гострий кут — на початок сторінки">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">Гострий кут</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Меню</span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Головне меню">
+        <ul class="nav__list">
+          <li><a href="#services">Послуги</a></li>
+          <li><a href="#masters">Майстри</a></li>
+          <li><a href="#gallery">Роботи</a></li>
+          <li><a href="#reviews">Відгуки</a></li>
+          <li><a href="#visit">Адреса</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+        <a class="btn btn--accent nav__cta" href="#contacts">Записатися</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ПЕРШИЙ ЕКРАН -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">Барбершоп · Суми · з 2019</p>
+          <h1 class="hero__title" id="hero-title">
+            Чітка лінія.<br>
+            <span class="hero__title-muted">Спокійна година</span><br>
+            для себе.
+          </h1>
+          <p class="hero__lead">
+            Чоловічі стрижки, борода і гоління небезпечною бритвою.
+            Без поспіху, без гучної музики — лише робота, яку видно ще тиждень.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--accent btn--lg" href="#contacts">Записатися</a>
+            <a class="btn btn--ghost btn--lg" href="#services">Ціни</a>
+          </div>
+          <dl class="hero__facts">
+            <div><dt>Від</dt><dd>300 грн</dd></div>
+            <div><dt>Майстрів</dt><dd>3</dd></div>
+            <div><dt>Щодня</dt><dd>до 21:00</dd></div>
+          </dl>
+        </div>
+
+        <figure class="hero__media">
+          <!-- Заглушка: вставте сюди <img src="img/hero.jpg" alt="Інтер'єр барбершопу"> -->
+          <div class="ph ph--hero" data-label="Фото інтер'єру · 4:5"></div>
+          <figcaption class="hero__badge">
+            <span class="hero__badge-num">90°</span>
+            <span>рівно стільки,<br>скільки треба</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ПОСЛУГИ -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="section__num">01</span>
+          <h2 class="section__title" id="services-title">Послуги та ціни</h2>
+          <p class="section__note">Ціни фіксовані й не залежать від майстра. Оплата готівкою або карткою.</p>
+        </header>
+
+        <div class="services">
+          <article class="price-group">
+            <h3 class="price-group__title">Стрижки</h3>
+            <ul class="price-list">
+              <li class="price">
+                <span class="price__name">Чоловіча стрижка</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">450 грн</span>
+                <span class="price__meta">45 хв · ножиці та машинка, миття, укладка</span>
+              </li>
+              <li class="price">
+                <span class="price__name">Фейд / скін-фейд</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">500 грн</span>
+                <span class="price__meta">60 хв · плавний перехід до нуля</span>
+              </li>
+              <li class="price">
+                <span class="price__name">Стрижка машинкою</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">300 грн</span>
+                <span class="price__meta">30 хв · одна-дві насадки</span>
+              </li>
+              <li class="price">
+                <span class="price__name">Дитяча стрижка</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">350 грн</span>
+                <span class="price__meta">40 хв · до 12 років</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="price-group">
+            <h3 class="price-group__title">Борода та гоління</h3>
+            <ul class="price-list">
+              <li class="price">
+                <span class="price__name">Моделювання бороди</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">300 грн</span>
+                <span class="price__meta">30 хв · форма, контур, олія</span>
+              </li>
+              <li class="price">
+                <span class="price__name">Королівське гоління</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">400 грн</span>
+                <span class="price__meta">40 хв · гарячий рушник, небезпечна бритва</span>
+              </li>
+              <li class="price">
+                <span class="price__name">Камуфлювання сивини</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">250 грн</span>
+                <span class="price__meta">20 хв · волосся або борода</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="price-group price-group--accent">
+            <h3 class="price-group__title">Комплекси</h3>
+            <ul class="price-list">
+              <li class="price">
+                <span class="price__name">Стрижка + борода</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">650 грн</span>
+                <span class="price__meta">75 хв · найчастіший вибір</span>
+              </li>
+              <li class="price">
+                <span class="price__name">Батько + син</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">700 грн</span>
+                <span class="price__meta">80 хв · дві стрижки поспіль</span>
+              </li>
+              <li class="price">
+                <span class="price__name">Повний догляд</span>
+                <span class="price__dots" aria-hidden="true"></span>
+                <span class="price__cost">900 грн</span>
+                <span class="price__meta">110 хв · стрижка, борода, гоління, укладка</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- МАЙСТРИ -->
+    <section class="section section--alt" id="masters" aria-labelledby="masters-title">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="section__num">02</span>
+          <h2 class="section__title" id="masters-title">Майстри</h2>
+          <p class="section__note">Троє людей, кожен зі своєю сильною стороною. Можна записатися до конкретного.</p>
+        </header>
+
+        <div class="masters">
+          <article class="master">
+            <!-- Заглушка: <img src="img/master-1.jpg" alt="Олексій Бондар"> -->
+            <div class="ph ph--portrait" data-label="Фото майстра · 4:5"></div>
+            <div class="master__body">
+              <h3 class="master__name">Олексій Бондар</h3>
+              <p class="master__role">Старший майстер · 9 років</p>
+              <p class="master__text">Класичні стрижки, проділ, гоління небезпечною бритвою. Той, до кого ходять по «як у батька, тільки краще».</p>
+            </div>
+          </article>
+
+          <article class="master">
+            <!-- Заглушка: <img src="img/master-2.jpg" alt="Дмитро Ковтун"> -->
+            <div class="ph ph--portrait" data-label="Фото майстра · 4:5"></div>
+            <div class="master__body">
+              <h3 class="master__name">Дмитро Ковтун</h3>
+              <p class="master__role">Барбер · 5 років</p>
+              <p class="master__text">Фейди, текстурні кроп-стрижки, дизайн машинкою. Перехід без жодної сходинки — його принцип.</p>
+            </div>
+          </article>
+
+          <article class="master">
+            <!-- Заглушка: <img src="img/master-3.jpg" alt="Іван Мороз"> -->
+            <div class="ph ph--portrait" data-label="Фото майстра · 4:5"></div>
+            <div class="master__body">
+              <h3 class="master__name">Іван Мороз</h3>
+              <p class="master__role">Барбер · 6 років</p>
+              <p class="master__text">Борода в усіх формах: від акуратної щетини до повної. Підбирає форму під лінію щелепи.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ГАЛЕРЕЯ -->
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="section__num">03</span>
+          <h2 class="section__title" id="gallery-title">Роботи</h2>
+          <p class="section__note">Свіжі стрижки з крісла — без фільтрів і ретуші.</p>
+        </header>
+
+        <!-- Заглушки: замініть кожен .ph на <img src="img/work-N.jpg" alt="Опис роботи"> всередині -->
+        <ul class="gallery">
+          <li class="gallery__item gallery__item--tall"><div class="ph" data-label="Фейд · 3:4"></div></li>
+          <li class="gallery__item"><div class="ph" data-label="Борода · 1:1"></div></li>
+          <li class="gallery__item"><div class="ph" data-label="Класика · 1:1"></div></li>
+          <li class="gallery__item gallery__item--wide"><div class="ph" data-label="Процес · 16:9"></div></li>
+          <li class="gallery__item"><div class="ph" data-label="Кроп · 1:1"></div></li>
+          <li class="gallery__item"><div class="ph" data-label="Гоління · 1:1"></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ВІДГУКИ -->
+    <section class="section section--alt" id="reviews" aria-labelledby="reviews-title">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="section__num">04</span>
+          <h2 class="section__title" id="reviews-title">Відгуки</h2>
+          <p class="section__note">4,9 із 5 за 312 оцінками.</p>
+        </header>
+
+        <div class="reviews" tabindex="0" aria-label="Відгуки клієнтів, можна гортати">
+          <figure class="review">
+            <div class="review__stars" aria-label="5 із 5">★★★★★</div>
+            <blockquote class="review__text">
+              <p>Ходжу до Олексія третій рік. Жодного разу не довелося пояснювати двічі — пам'ятає, як я стрижуся, краще за мене.</p>
+            </blockquote>
+            <figcaption class="review__author">Андрій К. <span>постійний клієнт</span></figcaption>
+          </figure>
+
+          <figure class="review">
+            <div class="review__stars" aria-label="5 із 5">★★★★★</div>
+            <blockquote class="review__text">
+              <p>Фейд від Дмитра — найчистіший, що в мене був. Сиділи хвилин п'ятдесят, ніхто не квапив. Кава теж добра.</p>
+            </blockquote>
+            <figcaption class="review__author">Максим Л. <span>фейд</span></figcaption>
+          </figure>
+
+          <figure class="review">
+            <div class="review__stars" aria-label="5 із 5">★★★★★</div>
+            <blockquote class="review__text">
+              <p>Привів сина на «батько + син». Малий не вередував, бо поруч сидів я. Тепер просить іти саме сюди.</p>
+            </blockquote>
+            <figcaption class="review__author">Сергій П. <span>батько + син</span></figcaption>
+          </figure>
+
+          <figure class="review">
+            <div class="review__stars" aria-label="4 із 5">★★★★<span class="review__star-off">★</span></div>
+            <blockquote class="review__text">
+              <p>Королівське гоління — окремий ритуал, рекомендую. Мінус один: у суботу записатися важко, бронюйте заздалегідь.</p>
+            </blockquote>
+            <figcaption class="review__author">Віктор Г. <span>гоління</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- АДРЕСА Й ГОДИНИ -->
+    <section class="section" id="visit" aria-labelledby="visit-title">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="section__num">05</span>
+          <h2 class="section__title" id="visit-title">Адреса й години</h2>
+        </header>
+
+        <div class="visit">
+          <div class="visit__card">
+            <h3 class="visit__label">Де нас знайти</h3>
+            <address class="visit__address">
+              м. Суми, вул. Соборна, 00<br>
+              вхід з двору, другі червоні двері ліворуч
+            </address>
+            <p class="visit__hint">5 хвилин пішки від Театральної площі. Паркування — уздовж вулиці.</p>
+            <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A1%D1%83%D0%BC%D0%B8%2C%20%D0%B2%D1%83%D0%BB.%20%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%B0" target="_blank" rel="noopener">Відкрити на мапі</a>
+          </div>
+
+          <div class="visit__card">
+            <h3 class="visit__label">Години роботи</h3>
+            <p class="status" id="open-status" aria-live="polite"></p>
+            <table class="hours">
+              <tbody>
+                <tr data-days="1 2 3 4 5" data-open="10:00" data-close="21:00"><th scope="row">Понеділок — П'ятниця</th><td>10:00 — 21:00</td></tr>
+                <tr data-days="6" data-open="10:00" data-close="20:00"><th scope="row">Субота</th><td>10:00 — 20:00</td></tr>
+                <tr data-days="7" data-open="11:00" data-close="18:00"><th scope="row">Неділя</th><td>11:00 — 18:00</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- КОНТАКТИ -->
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="section__num">06</span>
+          <h2 class="section__title" id="contacts-title">Записатися</h2>
+          <p class="section__note">Найшвидше — дзвінком. У Telegram і Instagram відповідаємо протягом пів години в робочий час.</p>
+        </header>
+
+        <div class="contact-actions">
+          <a class="contact-btn" href="tel:+380500000000">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+            <span class="contact-btn__label">Подзвонити</span>
+            <span class="contact-btn__value">+380 50 000 00 00</span>
+          </a>
+          <a class="contact-btn" href="https://t.me/hostryi_kut_demo" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.4 4.2 2.9 11.3c-1.3.5-1.2 1.2-.2 1.5l4.7 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.4l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.5c.3-1.3-.5-1.8-1.3-1.5zM9.7 14.4l-.4 4-1.5-4.8 10.6-6.7z"/></svg>
+            <span class="contact-btn__label">Telegram</span>
+            <span class="contact-btn__value">@hostryi_kut_demo</span>
+          </a>
+          <a class="contact-btn" href="https://instagram.com/hostryi_kut_demo" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.3A4.7 4.7 0 1 0 16.7 12 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm6-7.9a1.1 1.1 0 1 1-1.1-1.1A1.1 1.1 0 0 1 18 7.1zM12 3.6c2.7 0 3 0 4.1.1a5.6 5.6 0 0 1 1.9.35 3.4 3.4 0 0 1 1.95 1.95 5.6 5.6 0 0 1 .35 1.9c.05 1.05.06 1.4.06 4.1s0 3-.06 4.1a5.6 5.6 0 0 1-.35 1.9 3.4 3.4 0 0 1-1.95 1.95 5.6 5.6 0 0 1-1.9.35c-1.05.05-1.4.06-4.1.06s-3 0-4.1-.06a5.6 5.6 0 0 1-1.9-.35 3.4 3.4 0 0 1-1.95-1.95 5.6 5.6 0 0 1-.35-1.9C3.6 15 3.6 14.7 3.6 12s0-3 .06-4.1A5.6 5.6 0 0 1 4 6a3.4 3.4 0 0 1 1.95-1.95A5.6 5.6 0 0 1 7.9 3.7C9 3.6 9.3 3.6 12 3.6zM12 2c-2.7 0-3.1 0-4.1.06a7.3 7.3 0 0 0-2.4.46 5 5 0 0 0-2.9 2.9 7.3 7.3 0 0 0-.46 2.4C2 8.9 2 9.3 2 12s0 3.1.06 4.1a7.3 7.3 0 0 0 .46 2.4 5 5 0 0 0 2.9 2.9 7.3 7.3 0 0 0 2.4.46C8.9 22 9.3 22 12 22s3.1 0 4.1-.06a7.3 7.3 0 0 0 2.4-.46 5 5 0 0 0 2.9-2.9 7.3 7.3 0 0 0 .46-2.4C22 15.1 22 14.7 22 12s0-3.1-.06-4.1a7.3 7.3 0 0 0-.46-2.4 5 5 0 0 0-2.9-2.9 7.3 7.3 0 0 0-2.4-.46C15.1 2 14.7 2 12 2z"/></svg>
+            <span class="contact-btn__label">Instagram</span>
+            <span class="contact-btn__value">@hostryi_kut_demo</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a class="logo" href="#top" aria-label="Гострий кут — на початок сторінки">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">Гострий кут</span>
+      </a>
+      <p class="footer__note">Демо-проєкт для портфоліо. Бренд, майстри, адреса, контакти й ціни вигадані.</p>
+      <p class="footer__copy">© <span id="year">2026</span> Гострий кут</p>
+    </div>
+  </footer>
+
+  <!-- Липка панель на мобільних -->
+  <div class="mobile-bar" aria-label="Швидкі дії">
+    <a class="btn btn--ghost" href="tel:+380500000000">Подзвонити</a>
+    <a class="btn btn--accent" href="#contacts">Записатися</a>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
